@@ -1,0 +1,78 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.app {
+   text-align: center;
+}
+
+header {
+   background-color: #282c34;
+   padding: 20px;
+   color: white;
+}
+
+select {
+   margin: 10px;
+   padding: 10px;
+   font-size: 1rem;
+}
+
+.product-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.product-card {
+   border: 1px solid #ddd;
+   margin: 10px;
+   padding: 15px;
+   width: 250px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover{
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+}
+
+.product-card img {
+   max-width: 100%;
+   height: auto;
+}
+
+.load-more {
+   margin: 20px;
+   padding: 10px 20px;
+   font-size: 1rem;
+   cursor: pointer;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+
+form {
+   margin-bottom: 20px;
+}
+
+input[type="text"] {
+   padding: 10px;
+   width: 300px;
+   margin-right: 10px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+
+button[type="submit"] {
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+
